@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 1 | CSS</title>
+
+    <!-- This is called internal css -->
+    <style>
+      /* selector : {
+                key : value ;
+            } */
+
+      /* Types of selectors
+            1- class selector 
+            2- id selector
+            3- tag selector
+            4- combinator selector h1,h2
+            5- universal selector 
+        */
+
+      * {
+        /* background-color: black;
+        color: green; */
+      }
+
+      .color {
+        color: yellow;
+      }
+
+      #h3 {
+        color: cadetblue;
+      }
+
+      h1,
+      h2,
+      h3 {
+        font-size: 30px;
+      }
+
+      h2 {
+        color: palegoldenrod !important;
+      }
+    </style>
+    <!-- This is called External css -->
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style1.css"/>
+  </head>
+  <body>
+    <!-- 
+            Types of CSS
+                1-inline css
+                2-internal css
+                3-external css
+    -->
+
+    <h1 class="color" style="background-color: blueviolet">
+      This is inline css
+    </h1>
+    <h2 style="color: blueviolet">This is h2</h2>
+    <h3 class="color" id="h3">This is h3</h3>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <a href="google.com">google</a>
+
+    <p id="p1"> this is paragraph 1</p>
+    <p id="p2"> this is paragraph 2</p>
+  </body>
+</html>
