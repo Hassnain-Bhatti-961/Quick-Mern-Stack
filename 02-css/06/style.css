@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a{
+    padding: 10px 20px;
+    margin: 50px;
+    background: rgb(43, 43, 238);
+    color: white;   
+}

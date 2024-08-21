@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ul,ol{
+    margin: 40px;
+}
+
+ul>li{
+    list-style:square;
+}
+
+ol>li{
+    list-style:lower-roman;
+}
