@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin-top: 40px;
+}
+
+a {
+    display: inline-block;
+    min-width: 100px;
+    padding: 10px 20px;
+    background-color: rgb(64, 82, 240);
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    border-radius: 90px;
+}
+
+
+a:hover {
+    background-color: rgb(129, 129, 250);
+    color: white;
+}
+
+a:active {
+    background-color: rgb(48, 191, 84);
+    color: white;
+}
+
+a:visited {
+    background-color: rgb(187, 9, 33);
+    color: white;
+}
+
+img {
+    height: 20px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#customers {
+    width: 80%;
+}
+
+table,
+tr,
+td,
+th {
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+}
+
+th,td{
+    padding: 5px;
+    text-align: center;
+}
+
+tr:hover{
+    background-color: rgb(138, 255, 43);
+    cursor: pointer;
+    color: #fff;
+}
+
+tr:nth-child(even){
+    background-color: rgb(95, 161, 223);
+}
+
+tr:nth-child(odd){
+    background-color: #ff9797;
+}

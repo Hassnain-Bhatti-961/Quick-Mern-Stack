@@ -34,7 +34,7 @@ heigth:300    pb+30 pt+30 300+100=400     bt+10 bb+10 300+100+20=420
 */
 
 .content-box{
-    background:aqua;
+    background:rgb(39, 95, 95);
     box-sizing: content-box;
     padding: 50px;
     border: 10px solid blueviolet;

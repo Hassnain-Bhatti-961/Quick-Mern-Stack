@@ -39,7 +39,7 @@
 
 .heading{
     color: #04aa6d;
-    text-transform: uppercase;
+    text-transform: capitalize;
     text-align: center;
     font-size: 30px;
 }
