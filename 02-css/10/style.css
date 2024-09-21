@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+table{
+    width: 30%;
+    border-collapse: collapse;    
+}
+th,td{
+    border-bottom: 1px solid rgb(32, 32, 32);
+    text-align: center;
+    padding: 10px;
+}
+
+tr:nth-child(odd){
+    background-color: bisque;
+}
+
+tr:nth-child(even){
+    background-color: rgb(245, 245, 245);
+}
+
+th:hover , td:hover{
+    color: #fff;
+    background-color: green;
+    cursor: pointer;
+}
+
+tr:hover{
+    background-color: rgb(138, 255, 43);
+    cursor: pointer;
+}
