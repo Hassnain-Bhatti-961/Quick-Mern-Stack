@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.media {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-color: red;
+}
+
+
+/* For Large Screen */
+/* @media screen and (max-width:1200px) {
+    .media {
+        background-color: rgb(235, 197, 30);
+    }
+} */
+
+/* For PC */
+/* @media screen and (max-width:992px) {
+    .media {
+        background-color: rgb(228, 101, 101);
+    }
+} */
+/* For Tablet */
+/* @media screen and (max-width:768px) {
+    .media {
+        background-color: grey;
+    }
+} */
+
+/* For Mobile */
+/* @media screen and (max-width:568px) {
+    .media {
+        background-color: blueviolet;
+    }
+} */
+
+/* For Mobile */
+@media screen and (min-width:568px) {
+    .media {
+        background-color: blueviolet;
+    }
+}
+
+/* For Tablet */
+@media screen and (min-width:768px) {
+    .media {
+        background-color: grey;
+    }
+
+/* For PC */
+@media screen and (min-width:992px) {
+    .media {
+        background-color: rgb(228, 101, 101);
+    }
+}
+}
+
+/* For Large Screen */
+@media screen and (min-width:1200px) {
+    .media {
+        background-color: rgb(235, 197, 30);
+    }
+}
